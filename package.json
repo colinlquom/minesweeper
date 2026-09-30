@@ -1,0 +1,27 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "A Minesweeper game built with JavaScript",
+  "main": "src/main.js",
+ "scripts": {
+  "dev": "webpack serve --config webpack.dev.js",
+  "build": "webpack --config webpack.prod.js",
+  "test": "jest"
+ },
+"keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^8.0.6",
+    "@babel/preset-env": "^8.0.6",
+    "babel-jest": "^30.5.2",
+    "css-loader": "^7.1.5",
+    "html-webpack-plugin": "^5.6.8",
+    "jest": "^30.5.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0"
+  }
+}
